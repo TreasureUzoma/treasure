@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --page-bg: #131410;
+  --foreground: #e4e4df;
+  --muted: #92938b;
+  --soft: #83847b;
+  --faint: #6b6c63;
+  --dim: #5b5c55;
+  --rule: #2b2c26;
+  --accent: #c3d889;
+  --avatar-border: #36372f;
+  --avatar-center: #292a23;
+  --avatar-glyph: #c5c39f;
+  --avatar-gradient: radial-gradient(
+    circle at 50% 42%,
+    var(--avatar-center),
+    var(--page-bg) 67%
+  );
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --page-bg: #f5f5f0;
+    --foreground: #24251f;
+    --muted: #777971;
+    --soft: #85877e;
+    --faint: #85877e;
+    --dim: #999b92;
+    --rule: #dedfd7;
+    --accent: #5f7733;
+    --avatar-border: #d7d8cf;
+    --avatar-center: #e4e5dc;
+    --avatar-glyph: #6d724f;
+    --avatar-gradient: radial-gradient(
+      circle at 50% 42%,
+      var(--avatar-center),
+      var(--page-bg) 67%
+    );
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--foreground);
+  font-family:
+    var(--font-switzer),
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+::selection {
+  background-color: #1b1b18;
+}
