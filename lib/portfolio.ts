@@ -38,17 +38,18 @@ export const projects = [
     platforms: "Web",
     href: "https://pass-pawn.vercel.app",
   },
-  {
-    name: "Eversub",
-    description: "A VTU and bill payments app (discontinued)",
-    platforms: "Web",
-    href: "https://eversub.vercel.app",
-  },
+
   {
     name: "avatar.idolo.dev",
     description: "A deterministic avatar generation API",
     platforms: "API",
     href: "https://avatar.idolo.dev",
+  },
+  {
+    name: "Eversub",
+    description: "A VTU and bill payments app (discontinued)",
+    platforms: "Web",
+    href: "https://eversub.vercel.app",
   },
 ];
 

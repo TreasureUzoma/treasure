@@ -32,7 +32,7 @@ export function Intro() {
           </span>
         </p>
         <p className="m-0 pt-2">
-          For 5+ years, I&apos;ve worked across the whole stack: product
+          For 4+ years, I&apos;ve worked across the whole stack: product
           thinking, design, frontend, backend, and the infrastructure that keeps
           things reliable.
         </p>
