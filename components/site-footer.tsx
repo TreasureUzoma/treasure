@@ -13,7 +13,7 @@ export async function SiteFooter() {
   return (
     <footer className="mt-[58px]">
       <p className="mb-3 text-sm text-[var(--soft)]">
-        For a fuller look at my work, visit my main portfolio at{" "}
+        For a full look at my work, visit my main portfolio at{" "}
         <a
           className="text-[var(--muted)] underline decoration-[var(--rule)] underline-offset-4 transition-colors hover:text-[var(--foreground)]"
           href="https://idolo.dev/"

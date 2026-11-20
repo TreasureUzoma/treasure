@@ -62,6 +62,6 @@ export const experience = [
   {
     role: "Freelance Product Engineer",
     company: "Self-employed",
-    period: "2023 - Present",
+    period: "2022 - Present",
   },
 ];
